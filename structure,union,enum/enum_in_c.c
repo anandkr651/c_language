@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 enum xenum {c,cpp,java};
 main()
 {
@@ -6,7 +6,9 @@ main()
     printf("%d",sizeof(var));
     return 0;
 }
-*/
+/*4
+PS D:\c_language\structure,union,enum>*/
+
 #include<stdio.h>
 typedef enum {male,female}gender;
 int main()
@@ -15,3 +17,5 @@ int main()
     printf("%d",var);
     return 0;
 }
+/*1
+PS D:\c_language\structure,union,enum> */
