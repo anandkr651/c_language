@@ -36,9 +36,9 @@ main()
   void swap(int, int);
   printf("enter two number");
   scanf("%d %d", &x, &y);
-  printf("x is %d\n y is %d\n", x, y);
+  printf("x is %d\ny is %d\n", x, y);
   swap(x, y);
-  printf("x is %d\n y is %d\n", x, y);
+  printf("x is %d\ny is %d\n", x, y);
 }
 void swap(int a, int b)
 {
@@ -50,5 +50,7 @@ void swap(int a, int b)
 /*enter two number3
 4
 x is 3
- y is 4
+y is 4
+x is 3 
+y is 4
 PS C:\Users\DELL\OneDrive\Desktop\c_language>*/
